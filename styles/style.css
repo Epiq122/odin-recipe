@@ -1,11 +1,20 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Verdana, "DejaVu Sans", sans-serif;
+  background-color: darkkhaki;
 }
 
 h1 {
+  margin: 20px;
   text-align: center;
   color: dodgerblue;
   font-weight: bolder;
+
 }
 
 a {
@@ -14,28 +23,39 @@ a {
 
 ul {
   list-style: none;
+
 }
 
-li {
+.homepage-ul li {
+  padding:10px;
+  margin: 10px;
+  text-align: center;
   font-size: 20px;
+  border: 1px solid green;
+  line-height: 2.2;
 }
+
+.homepage-ul:hover  li:hover{
+  background:red;
+}
+
 
 h2 {
   font-size: 30px;
 }
 
-/*Apple Pie*/
+.container{
+  margin:20px;
 
-.apple-header {
-  color: crimson;
+  width:50%;
 }
 
-ol {
-  line-height: 1.5;
+.main-recipe{
+  margin-bottom:20px;
+  text-decoration: underline 2px;
 }
 
-/*Candy Apple*/
-.apple-body {
-  background-color: #e00000;
-  color: white;
+
+a:hover{
+  color:yellow;
 }
